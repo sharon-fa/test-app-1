@@ -1,0 +1,8 @@
+<!-- qrgenerator/templates/qrgenerator/qr_code.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Generated QR Code</h2>
+  <img src="{{ img.qr_code_image.url }}" alt="QR Code">
+{% endblock %}

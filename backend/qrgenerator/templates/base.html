@@ -1,0 +1,27 @@
+<!-- qrgenerator/templates/base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}QR Code Generator{% endblock %}</title>
+    <!-- Include your CSS files, if any -->
+</head>
+<body>
+    <div id="header">
+        <h1>{% block header %}QR Code Generator{% endblock %}</h1>
+        <!-- Include navigation or other common elements -->
+    </div>
+
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <div id="footer">
+        <!-- Include footer or other common elements -->
+    </div>
+
+    <!-- Include your JavaScript files, if any -->
+</body>
+</html>
