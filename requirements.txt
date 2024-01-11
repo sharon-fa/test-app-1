@@ -2,3 +2,4 @@ django
 pillow
 qrcode
 gunicorn
+mod_wsgi
